@@ -12,9 +12,11 @@ database_url =
     """
 
 config :pebl, Pebl.Repo,
-  # ssl: true,
+  adapter: Ecto.Adapters.Postgres,
+  ssl: true,
   url: database_url,
-  pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10")
+  database: "",
+  pool_size: String.to_integer(System.get_env("POOL_SIZE") || "2")
 
 secret_key_base =
   System.get_env("SECRET_KEY_BASE") ||
@@ -25,7 +27,10 @@ secret_key_base =
 
 config :pebl, PeblWeb.Endpoint,
   http: [:inet6, port: String.to_integer(System.get_env("PORT") || "4000")],
-  secret_key_base: secret_key_base
+  secret_key_base: secret_key_base,
+  server: true,
+  url: [host: "${APP_NAME}.gigalixirapp.com", port: 443],
+  cache_static_manifest: "priv/static/cache_manifest.json"
 
 # ## Using releases (Elixir v1.9+)
 #
