@@ -14,3 +14,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Changed
 - Phoenix config and secrets for Gigalixir
+
+
+[Unreleased]: https://github.com/tomkonidas/pebl/compare/v0.0.1...HEAD
+[v0.0.1]: https://github.com/tomkonidas/pebl/releases/tag/v0.0.1
