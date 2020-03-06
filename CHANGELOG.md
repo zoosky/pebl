@@ -4,7 +4,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
-## [v0.0.1] - 2020-03-06
+## [v0.1.0] - 2020-03-06
 ### Added
 - Elixir Phoenix init App
 - Set up Disillery for Releases
@@ -16,5 +16,5 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Phoenix config and secrets for Gigalixir
 
 
-[Unreleased]: https://github.com/tomkonidas/pebl/compare/v0.0.1...HEAD
-[v0.0.1]: https://github.com/tomkonidas/pebl/releases/tag/v0.0.1
+[Unreleased]: https://github.com/tomkonidas/pebl/compare/v0.1.0...HEAD
+[v0.1.0]: https://github.com/tomkonidas/pebl/releases/tag/v0.1.0
