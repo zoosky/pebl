@@ -1,5 +1,4 @@
 <section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "pebl" %></h1>
-  <p>A simple invoicing app.</p>
+  <h1 class="text-indigo-500 text-5xl font-bold text-center">pebl</h1>
 </section>
 
