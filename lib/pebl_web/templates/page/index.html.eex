@@ -1,4 +1,4 @@
-<section class="phx-hero">
-  <h1 class="text-indigo-500 text-5xl font-bold text-center">pebl</h1>
-</section>
-
+<div class="mt-48 mx-auto container flex flex-col text-center justify-center">
+  <h1 class="text-5xl lg:text-6xl text-gray-800">Welcome to <span class="font-bold">pebl</span></h1>
+  <p class="text-gray-700 text-xl text-bold">A simple invoice generator made in Elixir/Phoenix</p>
+</div>
