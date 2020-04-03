@@ -1,9 +1,49 @@
-/* purgecss start ignore */
+/* purgecss2start ignore */
 
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 
 /* purgecss end ignore */
 
-/* @import "./components/buttons.css"; */
 @import "tailwindcss/utilities";
+
+.theme-dark {
+  --bg-brand-1: #2e3440;
+  --bg-brand-2: #3b4252;
+  --bg-brand-3: #434c5e;
+
+  --text-brand-1: #e5e9f0;
+  --text-brand-2: #eceff4;
+  --text-brand-3: #d8dee9;
+  
+  --brand-primary-1: #8fbcbb;
+  --brand-primary-2: #88c0d0;
+  --brand-primary-3: #81a1c1;
+  --brand-primary-4: #5e81ac;
+  --brand-secondary-1: #bf616a;
+  --brand-secondary-2: #d08770;
+  --brand-secondary-3: #ebcb8b;
+  --brand-secondary-4: #a3be8c;
+  --brand-secondary-5: #b48ead;
+}
+
+.theme-light {
+  --bg-brand-1: #eceff4;
+  --bg-brand-2: #e5e9f0;
+  --bg-brand-3: #d8dee9;
+
+  --text-brand-1: #2e3440;
+  --text-brand-2: #3b4252;
+  --text-brand-3: #4c566a;
+
+  --brand-primary-1: #8fbcbb;
+  --brand-primary-2: #88c0d0;
+  --brand-primary-3: #81a1c1;
+  --brand-primary-4: #5e81ac;
+  --brand-secondary-1: #bf616a;
+  --brand-secondary-2: #d08770;
+  --brand-secondary-3: #ebcb8b;
+  --brand-secondary-4: #a3be8c;
+  --brand-secondary-5: #b48ead;
+}
+
