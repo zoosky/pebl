@@ -4,7 +4,10 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Pebl · FOSS Invoice Generator</title>
+    <title>Pebl - Simple Invoice Generator</title>
+    <meta name="application-name" content="Pebl">
+    <meta name="theme-color" content="#5e81ac">
+    <meta name="description" content="A free and open source invoice generator app">
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
   </head>
   <body>
