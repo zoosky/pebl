@@ -1,6 +1,7 @@
 Pebl
 ====
 [![Build Status](https://travis-ci.com/tomkonidas/pebl.svg?branch=master)](https://travis-ci.com/tomkonidas/pebl)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/tomkonidas/pebl)
 
 To start your Phoenix server:
 
