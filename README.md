@@ -3,6 +3,11 @@ Pebl
 [![Build Status](https://travis-ci.com/tomkonidas/pebl.svg?branch=master)](https://travis-ci.com/tomkonidas/pebl)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/tomkonidas/pebl)
 
+## Technologies
+Project is created with:
+* Elixir version: 1.10.1
+* OTP version: 22
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
