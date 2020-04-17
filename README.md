@@ -5,8 +5,8 @@ Pebl
 
 ## Technologies
 Project is created with:
-* Elixir version: 1.10.1
-* OTP version: 22
+* Elixir version: 1.5
+* OTP version: 20
 
 To start your Phoenix server:
 
