@@ -1,5 +1,5 @@
-# Pebl
-======
+Pebl
+====
 [![Build Status](https://travis-ci.com/tomkonidas/pebl.svg?branch=master)](https://travis-ci.com/tomkonidas/pebl)
 
 To start your Phoenix server:
