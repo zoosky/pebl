@@ -1,7 +1,25 @@
-Pebl
-====
-[![Build Status](https://travis-ci.com/tomkonidas/pebl.svg?branch=master)](https://travis-ci.com/tomkonidas/pebl)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/tomkonidas/pebl)
+<h1 align="center">
+  <br><br>
+  <a href="https://github.com/tomkonidas/pebl"><img src="./assets/static/images/pebl.png" alt="Pebl" width="500"></a>
+  <br><br><br>
+</h1>
+
+<h3 align="center">A <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">FOSS</a> invoice generator App made in Elixir/Phoenix.</h3>
+
+<p align="center">
+  <a href="https://travis-ci.com/github/tomkonidas/pebl">
+    <img src="https://travis-ci.com/tomkonidas/pebl.svg?branch=master" alt="Build Status">
+  </a>
+  <a href="https://img.shields.io/github/v/tag/tomkonidas/pebl">
+    <img src="https://img.shields.io/github/v/tag/tomkonidas/pebl" alt="GitHub tag (latest by date)">
+  </a>
+  <a href="https://raw.githubusercontent.com/tomkonidas/pebl/master/LICENSE">
+    <img src="https://img.shields.io/github/license/tomkonidas/pebl" alt="License">
+  </a>
+  <a href="https://pebl.app">
+    <img src="https://img.shields.io/badge/demo-online-purple.svg">
+  </a>
+</p>
 
 ## Technologies
 Project is created with:
