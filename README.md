@@ -26,6 +26,7 @@
 * [Inspiration](#inspiration)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Status](#status)
 * [Contact](#contact)
 
 ## General Info
@@ -47,6 +48,10 @@ To start your Phoenix server:
   * Create and migrate your database with `mix ecto.setup`
   * Install Node.js dependencies with `cd assets && npm install`
   * Start Phoenix endpoint with `mix phx.server`
+
+## Status
+
+Project is: _in progress_
 
 ## Contact
 
