@@ -35,10 +35,9 @@
 
 ## Technologies
 Project is created with:
-* Elixir version: 1.5
-* OTP verison: 20
-* Phoenix version: 1.4.11
-* Node version: 13.11.0
+* [Elixir](https://elixir-lang.org/)
+* [Phoenix](https://www.phoenixframework.org/)
+* [TailwindCSS](https://tailwindcss.com/)
 
 ## Setup
 
