@@ -49,6 +49,8 @@ Colors:
 * [Elixir](https://elixir-lang.org/)
 * [Phoenix](https://www.phoenixframework.org/)
 * [TailwindCSS](https://tailwindcss.com/)
+* [Travis CI](https://travis-ci.com/)
+* [Gigalixir](https://www.gigalixir.com/)
 
 ## Setup
 
