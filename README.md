@@ -23,10 +23,14 @@
 
 ## Table of contents
 * [General info](#general-info)
+* [Inspiration](#inspiration)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
+
+## General Info
+
+## Inspiration
 
 ## Technologies
 Project is created with:
@@ -44,3 +48,15 @@ To start your Phoenix server:
   * Install Node.js dependencies with `cd assets && npm install`
   * Start Phoenix endpoint with `mix phx.server`
 
+## Contact
+
+Created by [@tomkonidas](https://tomkonidas.com) - feel free to contact me!
+
+<p>
+  <a href="https://github.com/tomkonidas">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/tomkonidas?label=Follow&style=social">
+  </a>
+  <a href="https://twitter.com/tomkonidas">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/tomkonidas?label=Follow&style=social">
+  </a>
+</p>
