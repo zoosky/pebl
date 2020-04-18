@@ -30,11 +30,22 @@
 * [Contact](#contact)
 
 ## General Info
+This app generates a simple yet elegant Invoice in PDF format.
 
 ## Inspiration
+Name:
+> [A way to a penguins heart](https://animals.mom.me/penguins-love-life-6367.html)  
+> The name came from my obsession with Linux, in which their mascot is a penguin. 
+
+The Why:
+> My significant other had asked me for a tool she can use to generate nice looking PDF invoices for her private practice.
+> This was the perfect opportunity to learn the Elixir/Phoenix Framework by project.
+
+Colors:
+> _"An arctic, north-bluish color palette."_  
+> The [Nord](https://www.nordtheme.com/) color theme is what I use for my text-editor ([VIM](https://neovim.io/)) and have grown very accustomed to it.
 
 ## Technologies
-Project is created with:
 * [Elixir](https://elixir-lang.org/)
 * [Phoenix](https://www.phoenixframework.org/)
 * [TailwindCSS](https://tailwindcss.com/)
