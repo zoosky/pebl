@@ -68,7 +68,7 @@ Project is: _in progress_
 
 ## Changelog
 
-Follow the changelog [here](https://raw.githubusercontent.com/tomkonidas/pebl/master/CHANGELOG.md)
+Follow the changelog [here](./CHANGELOG.md)
 
 ## Contact
 
