@@ -27,6 +27,7 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Status](#status)
+* [Changelog](#changelog)
 * [Contact](#contact)
 
 ## General Info
@@ -64,6 +65,10 @@ To start your Phoenix server:
 ## Status
 
 Project is: _in progress_
+
+## Changelog
+
+Follow the changelog [here](https://raw.githubusercontent.com/tomkonidas/pebl/master/CHANGELOG.md)
 
 ## Contact
 
