@@ -13,7 +13,7 @@
   <a href="https://img.shields.io/github/v/tag/tomkonidas/pebl">
     <img src="https://img.shields.io/github/v/tag/tomkonidas/pebl" alt="GitHub tag (latest by date)">
   </a>
-  <a href="https://raw.githubusercontent.com/tomkonidas/pebl/master/LICENSE">
+  <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/tomkonidas/pebl" alt="License">
   </a>
   <a href="https://pebl.app">
