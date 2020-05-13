@@ -49,6 +49,7 @@ Colors:
 ## Technologies
 * [Elixir](https://elixir-lang.org/)
 * [Phoenix](https://www.phoenixframework.org/)
+* [PostgreSQL](https://www.postgresql.org/)
 * [TailwindCSS](https://tailwindcss.com/)
 * [Travis CI](https://travis-ci.com/)
 * [Gigalixir](https://www.gigalixir.com/)
