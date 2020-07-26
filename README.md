@@ -53,8 +53,18 @@ Colors:
 * [TailwindCSS](https://tailwindcss.com/)
 * [Travis CI](https://travis-ci.com/)
 * [Gigalixir](https://www.gigalixir.com/)
+* [Docker](https://www.docker.com/)
 
 ## Setup
+
+`docker-compose up`
+
+> You will need to append the `--build` option if it is the first time building the container
+
+## Cleaning your docker environment
+
+`docker-compose rm -f`  
+`docker rmi -f $(docker images -qf dangling=true)`
 
 To start your Phoenix server:
 
