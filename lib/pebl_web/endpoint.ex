@@ -42,5 +42,7 @@ defmodule PeblWeb.Endpoint do
     key: "_pebl_key",
     signing_salt: "NCSshZSi"
 
+  plug Pow.Plug.Session, otp_app: :pebl
+  
   plug PeblWeb.Router
 end
