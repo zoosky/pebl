@@ -23,14 +23,12 @@
                 <%= link "Sign Out", to: Routes.pow_session_path(@conn, :delete), method: :delete %>
               </div>
             <% else %>
-            <div class="text-base leading-6 font-medium text-gray-500 hover:text-copy-base focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
-            <%= link "Sign Up", to: Routes.pow_registration_path(@conn, :new) %>
+              <div class="text-base leading-6 font-medium text-gray-500 hover:text-copy-base focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                <%= link "Sign Up", to: Routes.pow_registration_path(@conn, :new) %>
               </div>
-              <span class="inline-flex rounded-md shadow-sm">
-                <div class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-copy-base bg-primary-3 hover:bg-primary-4 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150">
-                  <%= link "Sign In", to: Routes.pow_session_path(@conn, :new) %>
-                </div>
-              </span>
+              <div class="text-base leading-6 font-medium text-gray-500 hover:text-copy-base focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                <%= link "Sign In", to: Routes.pow_session_path(@conn, :new) %>
+              </div>
             <% end %>
           </div>
         </div>
