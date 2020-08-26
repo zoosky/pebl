@@ -1,30 +1,30 @@
 <div class="mt-8 md:mt-48 mx-auto container flex flex-col text-center justify-center">
   <h1 class="mt-6 text-center text-4xl leading-9 font-extrabold text-gray-900">Sign Up</h1>
-    <%= form_for @changeset, @action, [as: :user], fn f -> %>
-      <div class="mt-8 flex flex-col sm:mx-auto sm:w-full sm:max-w-md">
-        <%= if @changeset.action do %>
-          <div class="alert alert-danger">
-            <p>Oops, something went wrong! Please check the errors below.</p>
-          </div>
-        <% end %>
-       
-          <%= label f, Pow.Ecto.Schema.user_id_field(@changeset), class: "mt-4 block text-sm font-medium leading-5 text-gray-700 text-left" %>
-          <%= text_input f, Pow.Ecto.Schema.user_id_field(@changeset)%>
-          <%= error_tag f, Pow.Ecto.Schema.user_id_field(@changeset) %>
-       
+  <%= form_for @changeset, @action, [as: :user], fn f -> %>
+    <div class="mt-8 flex flex-col sm:mx-auto sm:w-full sm:max-w-md">
+      <%= if @changeset.action do %>
+        <div class="alert alert-danger">
+          <p>Oops, something went wrong! Please check the errors below.</p>
+        </div>
+      <% end %>
+      
+        <%= label f, Pow.Ecto.Schema.user_id_field(@changeset), class: "mt-4 block text-sm font-medium leading-5 text-gray-700 text-left" %>
+        <%= text_input f, Pow.Ecto.Schema.user_id_field(@changeset)%>
+        <%= error_tag f, Pow.Ecto.Schema.user_id_field(@changeset) %>
+      
 
-        <%= label f, :password, class: "mt-4 block text-sm font-medium leading-5 text-gray-700 text-left" %>
-        <%= password_input f, :password %>
-        <%= error_tag f, :password %>
+      <%= label f, :password, class: "mt-4 block text-sm font-medium leading-5 text-gray-700 text-left" %>
+      <%= password_input f, :password %>
+      <%= error_tag f, :password %>
 
-        <%= label f, :password_confirmation, class: "mt-4 block text-sm font-medium leading-5 text-gray-700 text-left" %>
-        <%= password_input f, :password_confirmation %>
-        <%= error_tag f, :password_confirmation %>
+      <%= label f, :password_confirmation, class: "mt-4 block text-sm font-medium leading-5 text-gray-700 text-left" %>
+      <%= password_input f, :password_confirmation %>
+      <%= error_tag f, :password_confirmation %>
 
-        
-          <%= submit "Register", class: "font-semibold mt-4 bg-primary-2 p-2 rounded" %>
-        
-      </div>
-    <% end %>
+      
+        <%= submit "Register", class: "font-semibold mt-4 bg-primary-2 p-2 rounded" %>
+      
+    </div>
+  <% end %>
 </div>
 
