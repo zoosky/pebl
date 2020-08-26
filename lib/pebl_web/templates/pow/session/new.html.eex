@@ -2,7 +2,7 @@
   <h1 class="mt-6 text-center text-4xl leading-9 font-extrabold text-gray-900">Sign In</h1>
 
   <%= form_for @changeset, @action, [as: :user], fn f -> %>
-    <div class="mt-8 flex flex-col sm:mx-auto sm:w-full sm:max-w-md">
+    <div class="mt-8 mb-6 flex flex-col sm:mx-auto sm:w-full sm:max-w-md">
       <%= if @changeset.action do %>
         <div class="alert alert-danger">
           <p>Oops, something went wrong! Please check the errors below.</p>
@@ -17,8 +17,7 @@
       <%= password_input f, :password %>
       <%= error_tag f, :password %>
 
-      
-      <%= submit "Sign in",  class: "font-semibold mt-4 bg-primary-2 p-2 rounded" %>
+      <%= submit "Sign in",  class: "font-semibold mt-4 text-gray-800 bg-brand-light hover:bg-brand hover:text-gray-900 p-2 rounded" %>
       <%= link "Register", to: Routes.pow_registration_path(@conn, :new), class: "mt-2 p-2 text-right" %>
     </div>
   <% end %>
