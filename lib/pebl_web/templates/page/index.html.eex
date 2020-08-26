@@ -1,4 +1,4 @@
-<div class="mt-8 md:mt-48 mx-auto container flex flex-col text-center justify-center">
+<div class="mt-8 md:mt-48 mx-auto px-4 container flex flex-col text-center justify-center">
   <h1 class="text-5xl lg:text-6xl">Welcome to <span class="font-bold text-brand-dark">pebl</span></h1>
   <p class="text-copy-mute text-xl text-bold">A FOSS invoice generator App made in Elixir/Phoenix</p>
 </div>

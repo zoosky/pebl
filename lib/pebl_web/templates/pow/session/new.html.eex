@@ -1,4 +1,4 @@
-<div class="mt-8 md:mt-48 mx-auto container flex flex-col text-center justify-center">
+<div class="mt-8 md:mt-48 mx-auto container px-4 flex flex-col text-center justify-center">
   <h1 class="mt-6 text-center text-4xl leading-9 font-extrabold text-gray-900">Sign In</h1>
 
   <%= form_for @changeset, @action, [as: :user], fn f -> %>
