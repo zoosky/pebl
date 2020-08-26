@@ -46,7 +46,7 @@
                 </div>
                 <div class="ml-3">
                   <h3 class="text-sm leading-5 font-medium text-red-800" role="alert">
-                    Error
+                    Error:
                   </h3>
                   <div class="mt-2 text-sm leading-5 text-red-700">
                     <p role="alert">
@@ -67,7 +67,7 @@
                 </div>
                 <div class="ml-3">
                   <h3 class="text-sm leading-5 font-medium text-yellow-800">
-                    Attention needed
+                    Attention needed:
                   </h3>
                   <div class="mt-2 text-sm leading-5 text-yellow-700">
                     <p role="alert">
